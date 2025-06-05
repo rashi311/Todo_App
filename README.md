@@ -60,18 +60,16 @@ Todo_App/
    git clone https://github.com/rashi311/Todo_App.git
    cd Todo_App/mysite
    
-  2.Create a virtual environment
-   ```
+2.Create a virtual environment
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-  ```
-
   3.Install dependencies
-```
-pip install django
-```
 
-  4.Apply migrations
+pip install django
+`
+
+4.Apply migrations
 ```
 python manage.py makemigrations
 python manage.py migrate
