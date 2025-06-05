@@ -4,11 +4,27 @@ A simple and functional Todo List application built with **Django**. This app al
 
 ---
 
+## 🚀 Features
+
+- 📝 Add new tasks
+- ✏️ Edit existing tasks
+- ✅ Mark tasks as complete
+- ❌ Delete tasks
+- 📆 View all tasks in a list
+- 🔒 User authentication (optional if added)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.x  
+- Django 4.x  
+- HTML & CSS (Django Templates)  
+- SQLite3 (default DB)
+
+
 ## 📸 Screenshots
 
-> (Optional: Add screenshots of your app and place them in an `Images/` folder. Then use the code below.)
-
-```markdown
 ### 📋 Task List View and Add/Edit Task View
 <p align="center">
   <img src="Images/screenshot11.png" width="600" alt="Task List Screenshot" />
