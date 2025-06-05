@@ -64,34 +64,39 @@ Todo_App/
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-  3.Install dependencies
+   ```
 
+3.Install dependencies
+```bash
 pip install django
-`
+```
 
 4.Apply migrations
-```
+```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-  5.Run the development server
-```
+5.Run the development server
+```bash
 python manage.py runserver
 ```
   6.Open in your browser
-```
+```bash
 http://127.0.0.1:8000/
 ```
 
 
 ✍️ Customize Tasks
    Tasks can be managed from the main page or the Django admin interface. To access admin:
-   ```
+   
   1.Create a superuser:
+  ```
    python manage.py createsuperuser
+  ```
   
   2.Go to admin
+  ```
    http://127.0.0.1:8000/admin/
   
  
