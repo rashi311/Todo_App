@@ -59,29 +59,41 @@ Todo_App/
    git clone https://github.com/rashi311/Todo_App.git
    cd Todo_App/mysite
 2.Create a virtual environment
+   ```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+  ```
 
 3.Install dependencies
+```
 pip install django
+```
 
 4.Apply migrations
+```
 python manage.py makemigrations
 python manage.py migrate
+```
 
 5.Run the development server
+```
 python manage.py runserver
+```
 6.Open in your browser
+```
 http://127.0.0.1:8000/
+```
 
 
 ✍️ Customize Tasks
-1.Tasks can be managed from the main page or the Django admin interface. To access admin:
-
-Create a superuser:
-
-python manage.py createsuperuser
-2.Go to
+   Tasks can be managed from the main page or the Django admin interface. To access admin:
+  1.Create a superuser:
+   ```
+   python manage.py createsuperuser
+   ```
+  2.Go to admin
+  ```
  http://127.0.0.1:8000/admin/
- log in.
+  ```
+ 
 
