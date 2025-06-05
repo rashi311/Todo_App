@@ -1,0 +1,71 @@
+# ✅ Django Todo App
+
+A simple and functional Todo List application built with **Django**. This app allows users to create, update, and delete tasks efficiently. Ideal for learning Django basics and building CRUD functionality.
+
+---
+
+## 📸 Screenshots
+
+> (Optional: Add screenshots of your app and place them in an `Images/` folder. Then use the code below.)
+
+```markdown
+### 📋 Task List View and Add/Edit Task View
+<p align="center">
+  <img src="Images/screenshot11.png" width="600" alt="Task List Screenshot" />
+</p>
+
+📂 Folder Structure
+
+Todo_App/
+├── mysite/
+│   ├── todo/            # Main app
+│   │   ├── migrations/
+│   │   ├── templates/
+│   │   │   └── todo/
+│   │   │       ├── base.html
+│   │   │       ├── index.html
+│   │   │       └── ...
+│   │   ├── admin.py
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   └── urls.py
+│   ├── mysite/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── db.sqlite3
+│   └── manage.py
+
+## ⚙️ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/rashi311/Todo_App.git
+   cd Todo_App/mysite
+2.Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3.Install dependencies
+pip install django
+
+4.Apply migrations
+python manage.py makemigrations
+python manage.py migrate
+
+5.Run the development server
+python manage.py runserver
+6.Open in your browser
+http://127.0.0.1:8000/
+
+
+✍️ Customize Tasks
+1.Tasks can be managed from the main page or the Django admin interface. To access admin:
+
+Create a superuser:
+
+python manage.py createsuperuser
+2.Go to
+ http://127.0.0.1:8000/admin/
+ log in.
+
