@@ -31,7 +31,7 @@ A simple and functional Todo List application built with **Django**. This app al
 </p>
 
 📂 Folder Structure
-
+```
 Todo_App/
 ├── mysite/
 │   ├── todo/            # Main app
@@ -51,6 +51,7 @@ Todo_App/
 │   │   └── wsgi.py
 │   ├── db.sqlite3
 │   └── manage.py
+```
 
 ## ⚙️ How to Run Locally
 
@@ -58,28 +59,29 @@ Todo_App/
    ```bash
    git clone https://github.com/rashi311/Todo_App.git
    cd Todo_App/mysite
-2.Create a virtual environment
+   
+  2.Create a virtual environment
    ```
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
   ```
 
-3.Install dependencies
+  3.Install dependencies
 ```
 pip install django
 ```
 
-4.Apply migrations
+  4.Apply migrations
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-5.Run the development server
+  5.Run the development server
 ```
 python manage.py runserver
 ```
-6.Open in your browser
+  6.Open in your browser
 ```
 http://127.0.0.1:8000/
 ```
@@ -87,13 +89,12 @@ http://127.0.0.1:8000/
 
 ✍️ Customize Tasks
    Tasks can be managed from the main page or the Django admin interface. To access admin:
+   ```
   1.Create a superuser:
-   ```
    python manage.py createsuperuser
-   ```
+  
   2.Go to admin
-  ```
- http://127.0.0.1:8000/admin/
-  ```
+   http://127.0.0.1:8000/admin/
+  
  
 
